@@ -1,2 +1,2 @@
-# kc-fb-bot-heroku
-Get a Facebook Messenger Bot up and running with Heroku
+# chatbot using facebook api heroku and node.js
+first bot: echo bot
