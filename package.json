@@ -1,14 +1,14 @@
 {
   "name": "fb-bot-heroku",
   "version": "0.5.0",
-  "description": "A Facebook Messenger bot built to work with heroku",
+  "description": "A Facebook Messenger echo bot built to work with heroku",
   "main": "index.js",
   "scripts": {
-    "test": "hahaha"
+    "test": ""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brandonbrown/fb-bot-heroku.git"
+    "url": "git+https://github.com/ielouard/chatbot.git"
   },
   "keywords": [
     "facebook",
@@ -19,12 +19,12 @@
     "node",
     "javascript"
   ],
-  "author": "Brandon Brown",
+  "author": "ibrahim ELouard",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/brandonbrown/fb-bot-heroku/issues"
+    "url": "https://github.com/ielouard/chatbot"
   },
-  "homepage": "https://github.com/brandonbrown/fb-bot-heroku#readme",
+  "homepage": "https://github.com/ielouard",
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
