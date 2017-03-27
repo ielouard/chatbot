@@ -8,14 +8,14 @@ const app = express()
 
 app.set('port', (process.env.PORT || 5000))
 
-// Allows us to process the data
+
 app.use(bodyParser.urlencoded({extended: false}))
 app.use(bodyParser.json())
 
 // ROUTES
 
 app.get('/', function(req, res) {
-    res.send("Hi I am a chatbot")
+    res.send("echo bot")
 })
 
 let token = "" //put the token of your fb page
@@ -36,7 +36,7 @@ app.post('/webhook/', function(req, res) {
         let sender = event.sender.id
         if (event.message && event.message.text) {
             let text = event.message.text
-            sendText(sender, "Text echo: " + text.substring(0, 100) + " " + sender)
+            sendText(sender, "You said: " + text.substring(0, 100))
 
         }
     }
